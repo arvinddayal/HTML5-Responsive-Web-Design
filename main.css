@@ -1,0 +1,42 @@
+.container {
+	min-width: 320px;
+	padding: 1em;
+}
+
+.main {
+	border: 3pt solid #000;
+	width: 69%;
+	max-width: 850px;
+	float: left;
+	margin-left: 1em;
+}
+
+
+.sidebar {
+	margin-right: 1em;
+	border: 2pt solid #F00;
+	width: 30%;
+	min-width: 320px;
+	float: right;
+	clear: right;
+}
+
+h1{
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding: none;
+	margin-top: none;
+	margin-bottom: none;
+}
+
+nav {
+	text-align: center;
+	padding: .5em;
+}
+
+.side-list {
+	margin-top: none;
+}
