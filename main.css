@@ -1,10 +1,11 @@
-
-
-
+body {
+	background: #FFF;
+}
 
 .container {
 	min-width: 320px;
 	padding: 1em;
+	position: relative;
 }
 
 .main {
@@ -18,11 +19,15 @@
 
 .sidebar {
 	margin-right: 1em;
+	margin-left: 1em;
 	border: 2pt solid #F00;
 	width: 30%;
 	min-width: 320px;
 	float: right;
 	clear: right;
+	text-align: center;
+	list-style-position: inside;
+	margin-bottom: 2em;
 }
 
 h1{
@@ -45,8 +50,18 @@ nav {
 	margin-top: none;
 }
 
-@media screen and (max-width: 1000px) {
+img {
+	display: inline;
+	width: 50%;
+}
+
+.images {
+	display: inline;
+}
+
+@media screen and (max-width: 1310px) {
 	.sidebar {
 		width: 100%;
+		clear: both;
 	}
 }
